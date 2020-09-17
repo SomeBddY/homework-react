@@ -1,13 +1,33 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.weather-form {
+  position: relative;
+  text-align: center;
+}
+
+input, button {
+  display: block;
+  margin: 10px auto;
+  width: 250px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+button {
+    padding: 20px;
+    color: white;
+    background-color: #044757;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #076980;
 }
